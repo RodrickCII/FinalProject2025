@@ -207,4 +207,9 @@ class MainActivity : AppCompatActivity() {
 
         finish()
     }
+
+    fun bagButton(view: View)
+    {
+
+    }
 }
