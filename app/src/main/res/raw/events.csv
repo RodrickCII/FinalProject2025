@@ -1,0 +1,10 @@
+START|You awake and see three paths: left, right, and forward. You must choose a path|Left,Forward,Right|1,2,3
+1|You choose the left path and see a older man. He offers you the option of two options: a sword or a crossbow|Sword,Decline,Crossbow|4,4,4
+2|You choose the front path. You atop a balcony and see three possible paths: climb the wall, jump off the balcony, shimmy across the building|Climb,Jump,Shimmy|5,6,7
+3|You choose the right path and discover rows of empty prisoner cells. There is nothing here|NONE,Leave,NONE|4,4,4
+4|You return to the beginning room|Left,Forward,Right|1,2,3
+5|5th Option|NONE,Go Back,NONE|0,4,0
+6|6th Option|NONE,Go Back,NONE|0,4,0
+7|7th Option|NONE,Finish Game,NONE|0,END,0
+END|You finished the game|NONE,Return to Title Screen,NONE|0,-1,0
+-1|TITLE SCREEN|NONE,NONE,NONE|0,0,0
